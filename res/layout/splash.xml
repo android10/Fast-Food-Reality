@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_main"
+    android:persistentDrawingCache="animation|scrolling"
+	android:layoutAnimation="@anim/splash_animation_controller"    
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:gravity="center" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"
+	android:background="@drawable/background_splash">
+	</RelativeLayout>
+</LinearLayout>

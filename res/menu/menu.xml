@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/voice"
+          android:title="@string/app_voicesearch"
+          android:icon="@drawable/voicesearch">
+    </item>
+    <item android:id="@+id/about"
+          android:title="@string/app_about"
+          android:icon="@drawable/menu_about">
+    </item>
+</menu>

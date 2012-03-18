@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/org.android10.fastfoodfinder"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_main">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/home_root"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:id="@+id/home_root"
+			    android:orientation="vertical"
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    >
+			    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    	android:id="@+id/main_layout_menu"
+			        android:orientation="vertical"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="3"
+			        android:padding="2dip"
+			        >
+			        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			            android:orientation="horizontal"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1"
+			           	android:persistentDrawingCache="animation|scrolling"
+						android:layoutAnimation="@anim/main_animation_controller"
+			            >
+			            <Button android:id="@+id/btn_MainMenu01"
+			            	style="@style/HomeButton"			            	
+			                android:drawableTop="@drawable/button_mcdonalds"/>
+			            <Button android:id="@+id/btn_MainMenu02"
+			            	style="@style/HomeButton"
+			                android:drawableTop="@drawable/button_burgerking"/>
+			        </LinearLayout>
+			
+			        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			            android:orientation="horizontal"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1"
+			            android:persistentDrawingCache="animation|scrolling"
+						android:layoutAnimation="@anim/main_animation_controller"
+			            >
+			            <Button android:id="@+id/btn_MainMenu03"
+			            	style="@style/HomeButton"
+			                android:drawableTop="@drawable/button_pizzahut"/>
+			            <Button android:id="@+id/btn_MainMenu04"
+			            	style="@style/HomeButton"
+			                android:drawableTop="@drawable/button_pansandcompany"/>
+			        </LinearLayout>
+			        
+			        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			            android:orientation="horizontal"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1"
+			            android:persistentDrawingCache="animation|scrolling"
+						android:layoutAnimation="@anim/main_animation_controller"
+			            >
+			            <Button android:id="@+id/btn_MainMenu05"
+			            	style="@style/HomeButton"
+			                android:drawableTop="@drawable/button_starbucks"/>
+			            <Button android:id="@+id/btn_MainMenu06"
+			            	style="@style/HomeButton"
+			                android:drawableTop="@drawable/button_dunkindonuts"/>
+			        </LinearLayout>
+			        
+			        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+					    android:orientation="horizontal" 
+					    android:layout_width="fill_parent" 
+					    android:layout_height="wrap_content"
+					    android:layout_gravity="bottom">
+						<com.admob.android.ads.AdView  
+								android:id="@+id/ad" 
+								android:layout_width="fill_parent"  
+								android:layout_height="wrap_content"
+								myapp:backgroundColor="#000000"  
+								myapp:primaryTextColor="#FFFFFF"  
+								myapp:secondaryTextColor="#CCCCCC"
+								android:gravity="center"
+						/> 
+					</LinearLayout>
+			    </LinearLayout>
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</LinearLayout>  

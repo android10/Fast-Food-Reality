@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading">Loading...</string>
+    <string name="app_name">Fast Food Reality</string>
+    <string name="app_settings">Settings</string>
+    <string name="app_help">Help</string>
+    <string name="app_voicesearch">Voice Search</string>
+    <string name="app_about">About...</string>
+    <string name="about_title">About...</string>
+    <string name="about_message">Application by android10 Team.\n\nhttp://www.android10.org/\nOur free android community!!!\nhello@android10.org</string>
+    <string name="about_button">Close</string>
+    <string name="ok_button">Ok</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="error_notconnection">There is no internet connection</string>
+    <string name="error_nolocation_title">Failed to Find Location</string>
+    <string name="error_nolocation_message">Location Not Found...</string>
+    <string name="map_location_uri_mcdonalds">geo:0,0?q=McDonalds</string>
+    <string name="map_location_uri_burgerking">geo:0,0?q=Burger King</string>
+    <string name="map_location_uri_pizzahut">geo:0,0?q=pizza hut</string>
+    <string name="map_location_uri_pansandcompany">geo:0,0?q=pans and company</string>
+    <string name="map_location_uri_starbucks">geo:0,0?q=starbucks</string>
+    <string name="map_location_uri_dunkindonuts">geo:0,0?q=dunkin donuts</string>
+    <string name="map_location_uri_custom">geo:0,0?q=</string>
+    <string name="choose_action_title">Complete action using:</string>
+    <string name="choose_action_maps">Maps</string>
+    <string name="choose_action_augmentedreality">Augmented Reality</string>
+    <string name="popup_ar_btn_call">Call Place</string>
+    <string name="popup_ar_btn_streetview">Street View</string>
+    <string name="popup_ar_btn_close">Close</string>
+    <string name="popup_ar_msg_address">Address:</string>
+    <string name="popup_ar_msg_phonenumber">Phone Number:</string>
+    <string name="loading_ar_msg">Loading places...</string>
+    <string name="voice_not_results_msg">No RESULTS for Voice Recognition</string>
+    <string name="voice_find_msg">Find a FAST FOOD Restaurant</string>
+    <string name="voice_notavailable_msg">Voice NOT Available</string>
+    <string name="marker_distance_dist">DIST. </string>
+    <string name="marker_distance_km"> KM</string>
+    <string name="marker_distance_carryreturn">\r\n</string>
+   
+    
+    <string name="search_hint">Search Location</string>
+    
+    <string name="N">N</string>
+    <string name="NE">NE</string>
+    <string name="E">E</string>
+    <string name="SE">SE</string>
+    <string name="S">S</string>
+    <string name="SW">SW</string>
+    <string name="W">W</string>
+    <string name="NW">NW</string>
+    
+
+    <string name="empty_list">Sorry, \nThere is no location information \navailable within this radius.\nPlease try to search in a wider range.</string>
+	<string name="option_not_available">Sorry, We are working on it... \nThis option will be available soon!</string>
+	
+	<string name="license">Copyright http://www.android10.org/ 
+		\n\nThis program is free software: 	you can redistribute it and/or modify it under the terms of the 
+		GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+		or at your option) any later version. 
+		\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even 
+		the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public 
+		License for more details. 
+		\n\n See &lt;http://www.gnu.org/licenses/&gt;
+	</string>
+	
+	<string name="menu_item_1">Data Source</string>
+	<string name="menu_item_2">List view</string>
+	<string name="menu_item_3">Map view</string>
+	<string name="menu_item_4">Zoom level</string>
+	<string name="menu_item_5">Search</string>
+	<string name="menu_item_6">Info</string>
+	<string name="menu_item_7">License</string>
+	
+	
+	<string name="connection_error_dialog">Sorry, a connection Error occured! \nPlease check if you are connected to the Internet.</string>
+	<string name="connection_error_dialog_button1">Retry</string>
+	<string name="connection_error_dialog_button2">Open Settings</string>
+	<string name="connection_error_dialog_button3">Close App</string>
+	
+	<string name="connection_GPS_dialog_text">The GPS location can not be updated... \nIf you continue it could be that the Information 
+		\nwill not be displayed in the right place.</string>
+	<string name="connection_GPS_dialog_button1">Continue</string>
+	<string name="connection_GPS_dialog_button2">Close</string>
+	
+	<string name="no_website_available">Sorry, there is no further \ninformation available.</string>
+	
+	<string name="license_title">License</string>
+	<string name="close_button">Close</string>
+	<string name="general_info_title">Gerneral Information</string>
+	
+	<string name="general_info_text">GPS info: </string>
+	<string name="longitude">Longitude: </string>
+	<string name="latitude">Latitude: </string>
+	<string name="altitude">Altitude: </string>
+	<string name="speed">Speed: </string>
+	<string name="accuracy">Accuracy: </string>
+	<string name="gps_last_fix">Last GPS fix: </string>
+	
+	<string name="map_menu_normal_mode">Map</string>
+	<string name="map_menu_satellite_mode">Satellite</string>
+	<string name="map_menu_cam_mode">Camera</string>
+	<string name="map_my_location">My Location</string>
+	
+	<string name="map_current_location_click">Your current location</string>
+	
+	<string name="data_source_change_wikipedia">Changed to Wikipedia as data source</string>
+	<string name="data_source_change_twitter">Changed to Twitter as data source</string>
+	<string name="data_source_change_buzz">Changed to Google Buzz as data source</string>
+	<string name="data_source_change_osm">Changed to OpenStreetMap as data source</string>
+	
+	<string name="search_failed_notification">No search results</string>
+	<string name="source_openstreetmap">Stations around</string>
+	
+	<string name="search_active_1">Search on data source</string>
+	<string name="search_active_2">. Touch to terminate search</string>
+</resources>
